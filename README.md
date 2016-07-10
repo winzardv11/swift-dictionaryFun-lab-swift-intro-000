@@ -1,11 +1,10 @@
-# 
+# I Scream, You Scream: Ice Cream & Dictionaries
 
-<img src="http://i.telegraph.co.uk/multimedia/archive/02148/anne_2148996b.jpg" alt="Drawing" style="width: 200px;"/>  
-
+![Drawing](http://i.telegraph.co.uk/multimedia/archive/02148/anne_2148996b.jpg)
 
 > How wonderful it is that nobody need wait a single moment before starting to improve the world.
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives - The student should be able to...
 
 * Practice creating and using a dictionary.
 * Write methods to interpret the information in a dictionary.
