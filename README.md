@@ -4,11 +4,9 @@
 
 > How wonderful it is that nobody need wait a single moment before starting to improve the world.
 
-## Learning Objectives - The student should be able to...
+## Overview
 
-* Practice creating and using a dictionary.
-* Write methods to interpret the information in a dictionary.
-* Change/update/add values to the dictionary.
+In this lab, you'll create and change/update/add values to a dictionary. You'll aslo write methd to interpret the information in a dictionary. 
 
 ## Instructions
 
