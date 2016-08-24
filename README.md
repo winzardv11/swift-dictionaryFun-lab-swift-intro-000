@@ -1,8 +1,8 @@
 # I Scream, You Scream: Ice Cream & Dictionaries
 
-![Drawing](http://i.telegraph.co.uk/multimedia/archive/02148/anne_2148996b.jpg)
+![](http://i.imgur.com/nTw93vs.jpg?1)
 
-> How wonderful it is that nobody need wait a single moment before starting to improve the world.
+> Forget art. Put your trust in ice cream. -[Charles Baxter](https://en.wikipedia.org/wiki/Charles_Baxter_(author))
 
 ## Overview
 
