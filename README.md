@@ -6,7 +6,7 @@
 
 ## Overview
 
-In this lab, you'll create and change/update/add values to a dictionary. You'll aslo write methd to interpret the information in a dictionary. 
+In this lab, you'll create and change, update, and add values to a dictionary. You'll also write methods to interpret the information in a dictionary. 
 
 ## Instructions
 
