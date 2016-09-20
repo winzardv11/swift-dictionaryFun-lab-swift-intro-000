@@ -1,24 +1,14 @@
-# I Scream, You Scream: Ice Cream & Dictionaries
+# Ice Cream & Dictionaries
 
-![](http://i.imgur.com/nTw93vs.jpg?1)
+![](http://i.imgur.com/QztM9eJ.jpg?1)
 
-> Forget art. Put your trust in ice cream. -[Charles Baxter](https://en.wikipedia.org/wiki/Charles_Baxter_(author))
+> You may have to fight a battle more than once to win it. -[Margaret Thatcher](https://en.wikipedia.org/wiki/Margaret_Thatcher)
 
 # Overview
 
 In this lab, you'll create and change, update, and add values to a dictionary. You'll also write methods to interpret the information in a dictionary. 
 
 # Instructions
-
- In this lab, you have been given the outline of several functions. These functions have been declared, but have no useful bodies. In order to make the rest of the code in the playground work, you will have to declare some variables and fill in the function bodies so all tests pass. When you have completed the lab successfully, you should see no errors and correct output in the console.
- 
- Note that some of the code is test code. _Only change code that is explicitly marked!_ The tests should run without fail when you have completed the lab. The sections you should _not_ changed are marked **Check Your Work!** These sections include tests that check to make sure your code is working. If you see errors, go back and make sure your code is 100% correct!
- 
- The "stub" functions you have been given currently have a simple `return` statement marked `DELETE THIS LINE`. This `return` statement has been included so the function's code will actually compile, but you can and should delete this line of code when fixing the functions. The lines marked `DELETE THIS LINE` have no useful code (and, in fact, return the _wrong_ values).
- 
- Let's get started!
- 
----
 
 # 1.
 
@@ -44,7 +34,6 @@ Right below this comment, you should create a dictionary of type [`String` : `St
 
 In the `IcecreamTests.swift` file, you should be able to pass the test listed under `// 1.` before moving on!
 
----
 
 # 2.
 
@@ -62,7 +51,6 @@ Hint: Within your implementation, use a `for-in` loop to iterate over the `favor
 
 You should be able to pass all the tests associated with this function which can be found in the `IcecreamTests.swift` file under the `// 2.` comment before moving forward.
 
----
 
 # 3.
 
@@ -72,7 +60,6 @@ Hint: Within your implementation, use a `for-in` loop to iterate over the `favor
 
 Similar to the other functions, this function is being tested.
 
----
 
 # 4.
 
@@ -82,7 +69,6 @@ If a given person doesn't doesn't exist, return `nil`.
 
 This function is being tested.
 
----
 
 # 5.
 
@@ -92,16 +78,44 @@ The function should be called `replace(flavor:forPerson:)`. It will take in a fl
 
 This function is being tested.
 
----
 
 # 6.
 
 Uh oh! Deniz just texted Susan to let her know she can't come to the party. Create the new function described below so that we can remove the person passed in as an argument from the guest list, that way Susan doesn't accidentally buy ice cream for that person. The function should return `true` if the person who is being removed had previously been attending the party (exist in the dictionary), and `false` if they were never attending in the first place.
 
-We
+The function should be called `remove(person:)`. It will take in a person as input and remove them from the dictionary. If it was able to remove them, it should return true.. if not in that they don't exist within the dictionary, it should return false. The input parameter should be a `String` value called `person`. The return type should be `Bool`.
 
- 
+This function is being tested.
 
- 
+# 7.
+
+Susan is having trouble keeping track of all the comings and goings of the party. Complete the function `numberOfAttendees()` below that will return the number of people coming to the ice cream party.
+
+The function should be called `numberOfAttendees()`. The return type should be `Int`.
+
+This function is being tested.
+
+# 8.
+
+Susan is just getting ready to leave the grocery store when Sophie texts her to ask if her friend Travis can come to the party, too. She says his favorite flavor of ice cream is Strawberry. Now Susan needs you to write a function to add a new person to the guest list, along with their favorite flavor of ice cream. Complete the function below to add a person and their favorite flavor of ice cream to the guest list. The function should return `true` if the person was added, or `false` if the person was already attending. If the person was already attending, their favorite flavor of ice cream should _not_ be updated, and `false` should be returned instead.
+
+The function should be called `add(person:withFlavor:)`. The first input parameter should be a `String` value called `person` and the second input parameter should be a `String` value called `flavor`. The return type should be `Bool`.
+
+This function is being tested.
+
+# 9.
+
+If Susan's notes and memory are correct, there are now 7 people coming to the party. She'd like you to write a function, `attendeeList()`, which will create a list "**Name** likes **Ice Cream**", one attendee per line in alphabetical order, just so she can make sure she remembers correctly.
+
+The function should be called `attendeelist()`. The return type should be `String`. 
+
+A hint to help you produce a list in alphabetical order:
+
+```swift
+let allNames = Array(favoriteFlavorsOfIceCream.keys).sorted()
+```
+
+`allNames` is an array of `String`'s, placing all the names in alphabetical order. Use this to your advantage. Make sure the last part of your `String` doesn't end with a newline character `\n`.
+
 
 <a href='https://learn.co/lessons/DictionaryFun' data-visibility='hidden'>View this lesson on Learn.co</a>
