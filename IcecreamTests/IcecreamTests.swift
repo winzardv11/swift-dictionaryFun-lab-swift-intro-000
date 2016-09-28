@@ -66,22 +66,22 @@ class IcecreamTests: XCTestCase {
     
     // 3.
     func testCountForNaturalVanilla() {
-        let actualCount = testIcecream.count(forflavor: "Natural Vanilla")
+        let actualCount = testIcecream.count(forFlavor: "Natural Vanilla")
         XCTAssertEqual(actualCount, 3, "Only 3 people like Natural Vanilla.")
     }
     
     func testCountForMexicanChocolate() {
-        let actualCount = testIcecream.count(forflavor: "Mexican Chocolate")
+        let actualCount = testIcecream.count(forFlavor: "Mexican Chocolate")
         XCTAssertEqual(actualCount, 2, "Only 2 people like Natural Vanilla.")
     }
     
     func testCountForNonExistentFlavor() {
-        let actualCount = testIcecream.count(forflavor: "Blackberry")
+        let actualCount = testIcecream.count(forFlavor: "Blackberry")
         XCTAssertEqual(actualCount, 0, "0 people like Blackberry.")
     }
     
     func testCountForPeanutButterandChocolate() {
-        let actualCount = testIcecream.count(forflavor: "Peanut Butter and Chocolate")
+        let actualCount = testIcecream.count(forFlavor: "Peanut Butter and Chocolate")
         XCTAssertEqual(actualCount, 1, "Only 1 person likes Peanut Butter and Chocolate.")
     }
     
